@@ -1,4 +1,6 @@
 
+	* { box-sizing: border-box;}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -28,11 +30,22 @@ u1 { margin: 0; }
 	margin: 0 15px 30px 15px;
 	font-size: 15px;
 	display: inline-block;
+
 }
+
+.parent { font-size: 0;}
+
+.no-gutters {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.no-left-gutter { margin-left: 0;}
+.no-right-gutter { margin-right: 0;}
 
 .c6 { width: 930px; }	
 .c5 { width: 770px; }
 .c4 { width: 610px; }
 .c3 { width: 450px; }
-.c2 { width: 290px; }
+.c2 { width: 290px; background: #F00; }
 .c1 { width: 130px; }
