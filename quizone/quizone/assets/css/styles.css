@@ -1,0 +1,52 @@
+
+	* { box-sizing: border-box;}
+
+	.container{
+	width: 768px;
+	height:668px;
+	background:#F8E71C;
+	font-size: 0;
+	margin:auto;
+	padding:100px;
+
+	}
+
+	.blue-box{
+	width:568px;
+	height:568px;
+	background:#202665;
+	padding:100px;
+	
+    } 
+
+    .red-box{
+    width:768px;
+	height:100px;
+	background:#D0021B;
+	margin:auto;
+	padding-top:20px;
+    }
+
+    .green-box{
+	width:368px;
+	height:368px;
+	background:#009E4F;
+	padding: 20px
+
+    }
+
+   .red{
+   	width:328px;
+	height:67px;
+	background:#ED2025;
+	margin-bottom:20px;
+   }
+
+
+
+	
+
+
+	
+
+	
