@@ -3,7 +3,8 @@
 
 
 .container{
-	display:inline-block;
+	width: 768px;
+	height: 768px;
 }
 
 	.top-left-block { 

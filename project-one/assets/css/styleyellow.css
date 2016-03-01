@@ -1,0 +1,191 @@
+body{
+	margin: 0px;
+	overflow:hidden;
+}
+
+.green-bench{
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 20px
+}
+
+.red-bench{
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 20px
+}
+
+.blue-bench{
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 20px
+}
+
+.arrow-left{
+	width: 0; 
+	height: 0;
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;
+	border-right: 20px solid white;
+	position:absolute;
+	margin-left:50px;
+	margin-top: 240px;
+
+}
+
+.arrow-right{
+	width: 0; 
+	height: 0; 
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;
+	border-left: 20px solid white;
+	position:absolute;
+	margin-left:1200px;
+	margin-top: 240px;
+
+}
+
+.zoom-button{
+	font-size: 30px;
+	color: white;
+	position:absolute;
+	margin-left:1240px;
+	margin-top:90px;
+	}
+
+.zoom-out-button{
+	font-size: 38px;
+	color: white;
+	position:absolute;
+	margin-left:1240px;
+	margin-top:84px;
+	}
+
+.image-container{
+	padding-top: 80px;
+}
+
+	.home-button{
+	position:absolute;
+	margin-left:1160px;
+	margin-top:-760px;
+}
+
+.circle{
+left: 100px;
+top: 200px;
+width: 200px;
+height: 200px;
+border: 2px solid grey;
+border-radius: 100%;
+position: relative;
+margin-right:auto;
+margin-left:450px;
+margin-top:-900px;
+margin-bottom:auto;
+}
+
+.dot {
+width: 20px;
+height: 20px;
+border-radius: 100%;
+position: absolute;
+background-color: yellow;
+}
+
+
+.one {
+top: -10px;
+right: 90px;
+}
+
+.two{
+top: 20px;
+right: 14px;
+}
+
+.three{
+top: 90px;
+right: -10px;
+}
+
+.four{
+top: 160px;
+right: 14px;
+}
+
+.five{
+top: 190px;
+right: 90px;
+}
+
+.six{
+top: 160px;
+right: 160px;
+}
+
+.seven{
+top: 90px;
+right: 190px;
+}
+
+.eight{
+top: 20px;
+right: 165px;
+}
+
+.color{
+	border: 4px solid yellow;
+}
+
+.yellow-bench{
+	margin-left:600px;
+	margin-top:80px;
+}
+
+.time{
+	margin-left:1190px;
+	padding-top:98px;
+	font-family:helvetica;
+	font-size: 20px;
+}
+
+.dot:hover{
+	border: 4px solid yellow;
+
+}
+
+.arrow-right:hover{
+	width: 0; 
+	height: 0; 
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-left: 25px solid yellow;
+
+}
+
+.arrow-left:hover{
+	width: 0; 
+	height: 0; 
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-right: 25px solid yellow;
+}
+
+
+a:link{
+	text-decoration:none;
+	color:white;
+}
+a:visited{
+	
+	text-decoration: none;
+	color:white;
+}
+a:hover{
+	text-decoration:none;
+	font-size:40px;
+	}
+a:active{
+	text-decoration:none;
+}
