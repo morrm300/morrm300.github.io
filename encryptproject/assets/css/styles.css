@@ -4,6 +4,43 @@ body {
   margin: 0;
   padding: 0;
   overflow:hidden;
+  background-color:blue;
+}
+
+.stage {
+  text-align: left;
+  width: 2500px;
+  height: 1080px;
+  margin-top: -200px;
+  margin-left: -610px;
+  position: fixed;
+  background-color:white;
+  transform: scale(.50);
+}
+
+.message{
+	 transform: scale(.50);
+	 position:fixed;
+	 top:-200px;
+	 left:-100px;
+	 z-index:1;
+
+}
+
+.email{
+	position:fixed;
+	top: 450px;
+	left: 500px;
+	font-family:futura;
+	color:blue;
+}
+
+.white-background{
+  width: 1440px;
+  height: 600px;
+  margin-top: 60px;
+  position: fixed;
+  background-color:white;
 }
 
 .top-header-bar{
@@ -14,36 +51,42 @@ body {
 }
 
 .title{
-	position:absolute;
-	margin-left:500px;
-	margin-top:960px;
-	transform: scale(.20);
-	z-index:20;
-}
-
-.nav-bar{
-	height: 150px;
-	width: 10000px;
-	background-color:blue;
 	position:fixed;
-	margin-top: 1200px;
-	font-size: 20px;
-	font-family: futura;
-	color: white;
-
+	top:395px;
+	left:450px;
+	transform: scale(.18);
+	z-index:1;
 }
 
 .refresh-button{
-	position:absolute;
-	left:300px;
-	top:50px;
-
+	position:fixed;
+	left: 100px;
+	top: 685px;
+	font-family:futura;
+    color:white;
 }
 
 .sample-text-button{
-	position:absolute;
-	left: 1950px;
-	top: 45px;
+	position:fixed;
+	left: 300px;
+	top: 685px;
+	font-family:futura;
+	color: white;
+}
+
+.send-button{
+	position:fixed;
+	left: 500px;
+	top: 685px;
+	font-family:futura;
+	color: white;
+}
+
+.user-input-button{
+	position:fixed;
+	left: 300px;
+	top: 685px;
+	font-family:futura;
 	color: white;
 }
 
@@ -77,19 +120,6 @@ a:active{
 
 .encrypt {
 	/*display: none;*/
-}
-
-.stage {
-  padding: 0px;
-  text-align: left;
-  width: 5000px;
-  height: 5000px;
-  top:0px;
-  left:-1220px;
-  bottom:0;
-  transform: scale(.50);
-  margin-top: -1100px;
-  position: absolute;
 }
 
 .letter-box{

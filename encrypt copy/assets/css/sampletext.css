@@ -4,6 +4,16 @@ body {
   margin: 0;
   padding: 0;
   overflow:hidden;
+  background-color:blue;
+}
+
+.central{
+	width: 1440px;
+	height: 540px;
+	background-color:white;
+	position:absolute;
+	margin-top:60px;
+	z-index: 20;
 }
 
 .top-header-bar{
@@ -21,30 +31,30 @@ body {
 	z-index:20;
 }
 
-.nav-bar{
-	height: 150px;
-	width: 10000px;
-	background-color:blue;
-	position:fixed;
-	margin-top: 1200px;
-	font-size: 20px;
+.refresh-button{
+	position:absolute;
+	margin-left:290px;
+	margin-top: 620px;
 	font-family: futura;
 	color: white;
 
 }
 
-.refresh-button{
-	position:absolute;
-	left:300px;
-	top:50px;
-
+.user-input-button{
+    position:absolute;
+	margin-left:900px;
+	margin-top: 620px;
+	font-family: futura;
+	color: white;
 }
 
-.sample-text-button{
+.save-button{
 	position:absolute;
-	left: 1950px;
-	top: 45px;
+	margin-left:1000px;
+	margin-top: 620px;
+	font-family: futura;
 	color: white;
+
 }
 
 a:link{
@@ -75,10 +85,6 @@ a:active{
 	display: none;
 }
 
-.encrypt {
-	/*display: none;*/
-}
-
 .stage {
   padding: 0px;
   text-align: left;
@@ -90,10 +96,6 @@ a:active{
   transform: scale(.50);
   margin-top: -1100px;
   position: absolute;
-}
-
-.letter-box{
-	display: inline-block;
 }
 
 .letter-wrapper{
@@ -121,7 +123,6 @@ a:active{
 
 .blue{
 	background-color:blue;
-	/*display: none;*/
 }
 
 

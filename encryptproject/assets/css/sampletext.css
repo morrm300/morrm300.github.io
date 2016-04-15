@@ -4,6 +4,44 @@ body {
   margin: 0;
   padding: 0;
   overflow:hidden;
+  background-color:blue;
+}
+
+.word-wrapper{
+    left:100px;
+	display: inline-block;
+}	
+
+.stage {
+  text-align: left;
+  width: 2500px;
+  height: 1080px;
+  margin-top: -200px;
+  margin-left: -610px;
+  position: fixed;
+  background-color:white;
+  transform: scale(.50);
+}
+
+.message{
+	 transform: scale(.30);
+
+}
+
+.email{
+	position:fixed;
+	top: 500px;
+	left: 500px;
+	font-family:futura;
+	color:blue;
+}
+
+.white-background{
+  width: 1440px;
+  height: 600px;
+  margin-top: 60px;
+  position: fixed;
+  background-color:white;
 }
 
 .top-header-bar{
@@ -14,36 +52,64 @@ body {
 }
 
 .title{
-	position:absolute;
-	margin-left:500px;
-	margin-top:960px;
-	transform: scale(.20);
-	z-index:20;
-}
-
-.nav-bar{
-	height: 150px;
-	width: 10000px;
-	background-color:blue;
 	position:fixed;
-	margin-top: 1200px;
-	font-size: 20px;
-	font-family: futura;
-	color: white;
-
+	top:395px;
+	left:450px;
+	transform: scale(.18);
+	z-index:1;
 }
 
 .refresh-button{
-	position:absolute;
-	left:300px;
-	top:50px;
-
+	position:fixed;
+	left: 100px;
+	top: 685px;
+	font-family:futura;
+    color:white;
 }
 
 .sample-text-button{
-	position:absolute;
-	left: 1950px;
-	top: 45px;
+	position:fixed;
+	left: 300px;
+	top: 685px;
+	font-family:futura;
+	color: white;
+}
+
+.send-button{
+	position:fixed;
+	left: 500px;
+	top: 685px;
+	font-family:futura;
+	color: white;
+}
+
+.arrow-right{
+	width: 0; 
+	height: 0; 
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+	border-left: 30px solid blue;
+	position: fixed;
+	top: 300px;
+	left: 1200px;
+}
+
+.arrow-left{
+	width: 0; 
+	height: 0; 
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+	border-right: 30px solid blue;
+	position: fixed;
+	top: 300px;
+	left: 30px;
+}
+
+.user-input-button{
+	position:fixed;
+	left: 300px;
+	top: 685px;
+	font-family:futura;
 	color: white;
 }
 
@@ -67,42 +133,232 @@ a:active{
 	color:yellow;
 }
 
-
-.alphabet{
-	display: inline-block;
-	margin-right: 60px;
-	margin-top: 100px;
+.letter-wrapper{
 	display: none;
+	margin: 10px 5px 60px 15px;
+	width: 110px;
+	height: 200px;
+	position: relative;
 }
 
-.encrypt {
-	/*display: none;*/
+.banning{
+	transform: scale(.80);
+	position:fixed;
+	display:inline-block;
+	top: 100px;
+	left: 130px;
 }
 
-.stage {
-  padding: 0px;
-  text-align: left;
-  width: 5000px;
-  height: 5000px;
-  top:0px;
-  left:-1220px;
-  bottom:0;
-  transform: scale(.50);
-  margin-top: -1100px;
-  position: absolute;
+.encryption{
+	transform: scale(.60);
+	position:fixed;
+	display:inline-block;
+	top: 255px;
+	left: -80px;
+
+}
+
+.wont{
+    transform: scale(.50);
+	position:fixed;
+	display:inline-block;
+	top: 70px;
+	left: 170px;
+}
+
+.stop{
+	transform: scale(.50);
+	position:fixed;
+	display:inline-block;
+	top: 70px;
+	left: 500px;
+}
+
+.terror{
+    transform: scale(.50);
+	position:fixed;
+	display:inline-block;
+	top: 200px;
+	left: 200px;
+
+}
+
+.attacks{
+	transform: scale(.50);
+	position:fixed;
+	display:inline-block;
+	top: 330px;
+	left: 140px;
+
+}
+
+.or{
+    transform: scale(.40);
+	position:fixed;
+	display:inline-block;
+	top: 440px;
+	left: 460px;
+
+}
+
+.end{
+    transform: scale(.40);
+	position:fixed;
+	display:inline-block;
+	top: 50px;
+	left: 400px;
+}
+
+.religious{   
+	transform: scale(.70);
+	position:fixed;
+	display:inline-block;
+	top: 195px;
+	left: 40px;
+}
+
+.extremism{
+	transform: scale(.30);
+	position:fixed;
+	display:inline-block;
+	top: 320px;
+	left: 0px;
+}
+
+.such{
+	transform: scale(.40);
+	position:fixed;
+	display:inline-block;
+	top: 200px;
+	left: 20px;
+
+}
+
+.aaa{
+    transform: scale(.40);
+	position:fixed;
+	display:inline-block;
+	top: 200px;
+	left: 400px;
+
+}
+
+.ban{
+    transform: scale(.40);
+	position:fixed;
+	display:inline-block;
+	top: 200px;
+	left: 420px;
+
+}
+
+.would{
+  transform: scale(.40);
+	position:fixed;
+	display:inline-block;
+	top: 200px;
+	left: 550px;
+}
+
+.stifle{
+	transform: scale(.50);
+	position:fixed;
+	display:inline-block;
+	top: 50px;
+	left: 190px;
+}
+
+.democratic{
+	transform: scale(.40);
+	position:fixed;
+	display:inline-block;
+	top: 165px;
+	left: -70px;
+}
+
+.movements{
+	transform: scale(.50);
+	position:fixed;
+	display:inline-block;
+	top: 300px;
+	left: 0px;
+
+}
+
+.scuttle{
+	transform: scale(.50);
+	position:fixed;
+	display:inline-block;
+	top: 50px;
+	left: 140px;
+}
+
+.online{
+	transform: scale(.40);
+	position:fixed;
+	display:inline-block;
+	top: 165px;
+	left: 200px;
+}
+
+.security{
+	transform: scale(.50);
+	position:fixed;
+	display:inline-block;
+	top: 300px;
+	left: 100px;
+}
+
+.and{
+	transform: scale(.50);
+	position:fixed;
+	display:inline-block;
+	top: 50px;
+	left: 400px;
+
+}
+
+.undermine{
+	transform: scale(.40);
+	position:fixed;
+	display:inline-block;
+	top: 150px;
+	left: -20px;
+}
+
+.our{
+	transform: scale(.40);
+	position:fixed;
+	display:inline-block;
+	top: 250px;
+	left: 240px;
+}
+
+.open{
+    transform: scale(.40);
+	position:fixed;
+	display:inline-block;
+	top: 250px;
+	left: 440px;
+}
+
+.society{
+	transform: scale(.50);
+	position:fixed;
+	display:inline-block;
+	top: 360px;
+	left: 110px;
+
+}
+
+.show{
+	display: inline-block;
 }
 
 .letter-box{
 	display: inline-block;
 }
 
-.letter-wrapper{
-	display: inline-block;
-	margin: 10px 5px 60px 15px;
-	width: 110px;
-	height: 200px;
-	position: relative;
-}
 
 .letter-wrapper-w{
     display: inline-block;
