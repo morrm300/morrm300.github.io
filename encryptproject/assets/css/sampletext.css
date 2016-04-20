@@ -142,11 +142,11 @@ a:active{
 }
 
 .banning{
-	transform: scale(.40);
+	transform: scale(.60);
 	position:fixed;
 	display:inline-block;
-	top: 40px;
-	left: -200px;
+	top: 120px;
+	left: 100px;
 }
 
 .encryption{
