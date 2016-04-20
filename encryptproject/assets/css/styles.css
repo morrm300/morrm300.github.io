@@ -35,6 +35,17 @@ body {
 	color:blue;
 }
 
+.blinking-curser {
+    width: 5px;
+    height: 100px;
+    background-color: blue;
+    margin: 0 256px 15px 0;
+    position: fixed;
+    right: 0;
+    bottom: 0px;
+    animation: 1s blink step-end infinite;
+}
+
 .white-background{
   width: 1440px;
   height: 600px;
