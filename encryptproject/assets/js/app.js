@@ -320,9 +320,6 @@ $(window).keypress(function(event) {
 $( ".letter-box" ).mouseenter(function() {
       $(this).empty();
       newLetter = $(".alphabet .encrypt .letter-" + this.id).clone();
-       // console.log($(this).find(".regular"));
-      // $(this).find(".letter-wrapper").hide();
-      // $(this).find(".blue").show();
       $(this).append(newLetter);
 
 });
