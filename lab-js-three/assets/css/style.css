@@ -1,5 +1,25 @@
-body{
-	margin:0;
-	padding: 0;
-	font-size: 0;
+.hide{
+	display:none;
+}
+
+.yellow{
+	color:yellow;
+}
+
+.blue{
+	color:blue;
+}
+
+.red{
+	color:red;
+}
+
+img{
+	width:20%;
+	height:20%;
+}
+
+.object{
+	font-size:20px;
+	margin: 20px;
 }
