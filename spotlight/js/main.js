@@ -17,7 +17,7 @@ $(".mybutton").click(function(e) {
 	selected.push($("p").html());
 
 	$("p").html(words[Math.floor(Math.random()*words.length)]);
-	if (Math.random() > .5) {
+	if (Math.random() > .8) {
 		$("p").append(".<br>");
 	}
 	$("p").append(" ");
@@ -30,7 +30,6 @@ $(".mybutton").click(function(e) {
 	$('.poem').html(selected);
 });
 
-
 $('body').on('mousemove', function(event) {
 	var left = event.pageX - 100,
 		top  = event.pageY - 100;
@@ -38,6 +37,11 @@ $('body').on('mousemove', function(event) {
 	$('.spotlight').css({ 'left': left, 'top': top });
 });
 
-$('.button').click(function() {
+$('.switch').click(function() {
   $('.poem').toggleClass('hide');
 });
+
+$('spotlight').on('mousewheel', function(event) {
+    console.log(event.deltaX, event.deltaY, event.deltaFactor);
+});
+
