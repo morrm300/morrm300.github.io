@@ -122,6 +122,12 @@ body{
 	border-right: 25px solid green;
 }
 
+.map{
+	position:fixed;
+	top:-300px;
+	left:-700px;
+}
+
 
 a:link{
 	text-decoration:none;

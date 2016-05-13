@@ -17,7 +17,6 @@ var objects = ['Yeah',
                'you',
                'yo',
                'me',
-               'nigga',
                'dreamin',
                'god',
 

@@ -6,6 +6,7 @@ body{
     overflow:hidden;
 }
 
+
 .location {
     color: black;
     font-size: 40px;
@@ -38,14 +39,21 @@ a:link, a:visited {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.words{
     font-family: times;
     font-size: 60px;
     color: blue;
+    position: fixed;
+    padding-left:20px;
+    padding-top:30px;
+    cursor:auto;
+
 }
 
 .hide { display: none; }
 
-/* Estilo iOS */
 .switch__container {
   position: fixed;
   margin: 30px auto;
@@ -109,8 +117,10 @@ a:hover {
 }
 
 .refresh{
-  position:absolute;
-  transform: scale(.10);
-  top: 100px;
+  position:fixed;
+  transform: scale(.02);
+  top: -1160px;
+  left: 40px;
+  z-index: 2;
 }
 

@@ -7,8 +7,18 @@ a:link, a:visited {
     color: black;
 }
 
+.find{
+    font-family: times;
+    font-size: 60px;
+    position:fixed;
+    top:250px;
+    left:490px;
+}
+
 
 .spotlight {
+    top: 200px;
+    left:500px;
     background: #fff;
     width: 200px;
     height: 200px;

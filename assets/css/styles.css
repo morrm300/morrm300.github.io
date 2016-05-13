@@ -1,14 +1,14 @@
 
-	* { box-sizing: border-box;}
 
 body {
   margin: 0;
-  background: linear-gradient(to left, #FCBA44 ,#FC9B44, #FC445B);
+  background: black;
   border-radius: 6px;
   height: 120px;
   padding: 0;
-  font-size: 15px;
-  font-family: avenir;
+  font-size: 10px;
+  font-family: times;
+  overflow: scroll;
 }
 
 .name{
